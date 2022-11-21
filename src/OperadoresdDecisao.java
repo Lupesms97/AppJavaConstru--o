@@ -67,9 +67,43 @@ public class OperadoresdDecisao {
         }else{
             System.out.println("Esse funcionário não deverá receber o auxílio");
         }
+
+
+        //Fazendo o uso de switch
+
+
+        System.out.println("Qual dia da semana é sua folga: ");
+        String dia = scanner.next();
+
+        switch(dia){
+            case "segunda":
+                System.out.println("Você digitou segunda-feira, mas é só no domingo");
+                break;
+            case "terça":
+                System.out.println("Você digitou terça-feira, mas é só no domingo");
+                break;
+            case "quarta":
+                System.out.println("Você digitou quarta-feira, mas é só no domingo");  
+                break;             
+            case "quinta":
+                System.out.println("Você digitou quinta-feira, mas é só no domingo");     
+                break;          
+            case "sexta":
+                System.out.println("Você digitou sexta-feira, mas é só no domingo");          
+                break;     
+            case "sabado":
+                System.out.println("Você digitou sabado-feira, mas é só no domingo");      
+                break;         
+            case "domingo":
+                System.out.println("Você digitou domingo, é isso ai ");
+                break;
+            default:
+                System.out.println("Voc~e digitou um dia inválido");       
+            }
+        }
+
     }
 
-}
 
 
     
