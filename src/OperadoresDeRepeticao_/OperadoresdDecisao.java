@@ -101,8 +101,10 @@ public class OperadoresdDecisao {
             default:
                 System.out.println("Voc~e digitou um dia inválido");       
             }
+            scanner.close();
         }
 
+        
     }
 
 

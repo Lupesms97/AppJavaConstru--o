@@ -22,5 +22,7 @@ public class Fatorial {
                 System.out.print(i + "=" + (multiplicacao));
             }
         }
+
+        scan.close();
     }
 }

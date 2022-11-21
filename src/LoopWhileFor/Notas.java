@@ -17,8 +17,10 @@ public class Notas {
             nota = scan.nextInt();
         }
         System.out.println("A nota qeevocê digitou é " + nota);
+        scan.close();
     
     }
+
     
 
 }

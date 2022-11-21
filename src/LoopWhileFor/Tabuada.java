@@ -15,6 +15,7 @@ public class Tabuada {
             //número escolhido pelo usuário "X" o valor de i "=" a multiplicação do número com o i.
             System.out.println(numero + " X " + i + " = " + (numero * i));
         }
+        scan.close();
     }
 }
 
