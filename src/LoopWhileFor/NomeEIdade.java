@@ -2,7 +2,7 @@ package LoopWhileFor;
 
 import java.util.Scanner;
 
-public class NomeEiIdade {
+public class NomeEIdade {
     public static void main(String[] args) {
         
         Scanner scan = new Scanner(System.in);
@@ -15,6 +15,7 @@ public class NomeEiIdade {
             System.out.println("Digite sua idade: ");
             int idade = scan.nextInt();
 
+            System.out.println("Seu nome é "+ nome+" e sua idades é "+ idade +" anos");
         }
     
         System.out.println("Vamos finalizar seu programa");
