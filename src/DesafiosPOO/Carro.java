@@ -30,11 +30,12 @@ public class Carro {
     void setCapacidadeTanque (int capacidadeTanque){
         this.capacidadeTanque = capacidadeTanque;
     }
-    int getcapacidadeTanque(){
+    
+    int getCapacidadeTanque(){
         return capacidadeTanque;
     }
 
-    double setTotalValorTanque(double valorCombustivel){
+    double totalValorTanque(double valorCombustivel){
         return valorCombustivel * capacidadeTanque;
     }
 
